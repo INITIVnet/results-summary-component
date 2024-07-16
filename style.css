@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    display: flex;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+.container-1 {
+    width: 700px;
+    height: 480px;
+    border-radius: 20px;
+    box-shadow: hsla(221, 100%, 96%, 1) 40px 40px 50px;
+    display: flex;
+}
+
+.container-2 {
+    background: linear-gradient(hsl(252, 96%, 65%)5px,hsl(241, 81%, 54%)80%);
+    width: 350px;
+    height: 480px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h3 {
+    color: hsl(241, 100%, 89%);
+    margin-top: 35px;
+    font-size: 20px;
+}
+
+.container-3 {
+    background:linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0)) ;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin: 15px;
+    font-size: 80px;
+}
+
+.circle-text {
+    font-size: 16px;
+    color: hsl(241, 59%, 80%);
+    margin-top: 0px;
+    font-weight: bold;
+}
+
+.number {
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    margin: 15px;
+}
+
+.great-para {
+    color: hsl(241, 100%, 89%);
+    text-align: center;
+    display: flex;
+    width: 220px;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.container-4 {
+    display: flex;
+    height: 480px;
+    width: 280px;
+    border-radius: 20px;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-right: 40px;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+h1 {
+    color: hsl(224, 30%, 27%);
+    font-size: 20px;
+}
+
+.reaction, .memory, .verbal, .visual {
+    background-color: rgb(250, 241, 241);
+    padding: 15px 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+.reac {
+    display: flex;
+    gap: 10px;
+    color: hsl(0, 100%, 67%);
+}
+
+.memory .reac {
+    color: hsl(39, 100%, 56%);
+}
+
+.verbal .reac {
+    color: hsl(166, 100%, 37%);
+}
+
+.visual .reac {
+    color: hsl(234, 85%, 45%);
+}
+
+.memory {
+    background-color: rgb(252, 247, 236);
+}
+
+.verbal {
+    background-color: rgb(238, 252, 238);
+}
+
+.visual {
+    background-color: rgb(231, 231, 253);
+}
+
+button {
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    border: none;
+    display: flex;
+    width: 100%;
+    padding: 15px;
+    border-radius: 100px;
+    font-weight: bold;
+    font-size: 16px;
+    justify-content: center;
+    align-content: center;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+button:hover{
+    background-color: red;
+}
+
+button:active {
+    background-image: linear-gradient(hsl(252, 96%, 65%)5px,hsl(241, 81%, 54%)80%)
+
+}

@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+:root {
+  --SOFT-BLUE: hsl(215, 51%, 70%);
+  --CYAN: hsl(178, 100%, 50%);
+  --VERY-DARK-BLUE-MAIN: hsl(217, 54%, 11%);
+  --VERY-DARK-BLUE-CARD: hsl(216, 50%, 16%);
+  --VERY-DARK-BLUE-LINE: hsl(215, 32%, 27%);
+}
+
+body {
+  background-color: var(--VERY-DARK-BLUE-MAIN);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Outfit", sans-serif;
+}
+
+.container-1 {
+  height: 850px;
+  width: 450px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: var(--VERY-DARK-BLUE-CARD);
+  flex-direction: column;
+  padding: 0px 35px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 20px 50px;
+}
+
+.container-2 {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.first {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+h2 {
+  color: white;
+  font-size: 29px;
+  font-weight: 500;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.para-1 {
+  font-size: 25px;
+  color: var(--SOFT-BLUE);
+  line-height: 35px;
+}
+
+.container-3 {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.para-2 {
+  color: cyan;
+  font-size: 20px;
+  margin-top: 0px;
+  margin-left: 10px;
+}
+
+.para-3 {
+  color: var(--SOFT-BLUE);
+  font-size: 20px;
+}
+
+hr {
+  border: 1px solid var(--VERY-DARK-BLUE-LINE);
+  margin-top: 0px;
+}
+
+.container-4 {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+}
+
+.para-4 {
+  color: var(--SOFT-BLUE);
+  font-size: 20px;
+}
+
+span {
+  color: white;
+  cursor: pointer;
+}
+
+.star {
+  height: 20px;
+  width: 20px;
+}
+
+.containers {
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+  justify-content: center;
+}
+
+.profile {
+  height: 40px;
+  border: 1px solid white;
+  border-radius: 100%;
+  margin-right: 20px;
+}
+
+.clock {
+  height: 30px;
+  margin-right: 10px;
+  margin-top: 18px;
+}
+
+span:active {
+  color: cyan;
+}
+
+h2:active {
+  color: cyan;
+}
